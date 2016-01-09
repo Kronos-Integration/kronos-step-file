@@ -11,11 +11,10 @@ exports.registerWithManager = function (manager) {
 			endpoints: {
 				"inout": {
 					"in": true,
-					"out": true,
-					uti: "org.kronos.file"
+					"out": true
 				}
 			},
-			initialize(manager, scopeReporter, name, stepConfiguration, endpoints, properties) {
+			initialize(manager, scopeReporter, name, stepConfiguration, properties) {
 				const fileName = stepConfiguration.fileName;
 
 				let currentRequest, currentStream;
@@ -23,7 +22,7 @@ exports.registerWithManager = function (manager) {
 				properties._start = {
 					value: function () {
 						const step = this;
-						const ep = endpoints.inout;
+						const ep = this.interceptedEndpoints.inout;
 
 						return new Promise(function (resolve, reject) {
 							if (ep.out) {

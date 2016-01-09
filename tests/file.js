@@ -5,7 +5,6 @@
 
 const fs = require('fs'),
 	path = require('path'),
-	uti = require('uti'),
 	chai = require('chai'),
 	assert = chai.assert,
 	expect = chai.expect,
@@ -16,8 +15,6 @@ const fs = require('fs'),
 	BaseStep = require('kronos-step');
 
 const inFileName = path.join(__dirname, 'fixtures', 'file1.txt');
-
-uti.initialize();
 
 const manager = testStep.managerMock;
 require('../file').registerWithManager(manager);
