@@ -53,7 +53,7 @@ exports.registerWithManager = function (manager) {
 							}
 
 							//console.log(`RESOLVE: ${step.state}`);
-							resolve(step);
+							resolve();
 						});
 					}
 				};
@@ -63,7 +63,7 @@ exports.registerWithManager = function (manager) {
 						if (currentRequest) {
 							currentRequest.stream.unpipe(currentStream);
 						}
-						return Promise.resolve(this);
+						return Promise.resolve();
 					}
 				};
 
