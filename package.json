@@ -29,7 +29,7 @@
     "kronos-test-step": "^2.10.0",
     "mocha": "^2.4.5",
     "semantic-release": "6.0.3",
-    "stream-equal": "^0.1.7",
+    "stream-equal": "^0.1.8",
     "tmp": "0.0.28"
   },
   "contributors": [
