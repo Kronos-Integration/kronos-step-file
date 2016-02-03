@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Kronos-Integration/kronos-step-file#readme",
   "dependencies": {
-    "kronos-step": "^3.9.0"
+    "kronos-step": "^4.0.2"
   },
   "devDependencies": {
     "chai": "3.5.0",
