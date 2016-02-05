@@ -27,9 +27,9 @@ function makeEqualizer(done) {
 	};
 }
 
-describe('file', function () {
-	describe('in', function () {
-		describe('single', function () {
+describe('file', () => {
+	describe('in', () => {
+		describe('single', () => {
 			const fileStep = file.createInstance(manager, undefined, {
 				name: "myStep",
 				type: "kronos-file",
