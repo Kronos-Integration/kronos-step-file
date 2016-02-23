@@ -27,22 +27,20 @@
     "chai": "3.5.0",
     "istanbul": "0.4.2",
     "kronos-test-step": "^3.0.1",
+    "kronos-service-manager": "^3.2.9",
     "mocha": "2.4.5",
     "semantic-release": "6.2.0",
     "stream-equal": "^0.1.8",
     "tmp": "0.0.28",
     "jsdoc": "3.4.0"
   },
-  "contributors": [
-    {
-      "name": "Torsten Link",
-      "email": "torstenlink@gmx.de"
-    },
-    {
-      "name": "Markus Felten",
-      "email": "markus.felten@gmx.de"
-    }
-  ],
+  "contributors": [{
+    "name": "Torsten Link",
+    "email": "torstenlink@gmx.de"
+  }, {
+    "name": "Markus Felten",
+    "email": "markus.felten@gmx.de"
+  }],
   "license": "BSD-2-Clause",
   "engines": {
     "node": ">=5"
