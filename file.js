@@ -18,7 +18,7 @@ exports.registerWithManager = manager =>
 			properties._start = {
 				value: function () {
 					this.endpoints.in.receive = request => {
-						request.payload.pipe(fs.createOutputStream(fileName));
+						request.payload.pipe(fs.createWriteStream(fileName));
 						return Promise.resolve();
 					};
 				}
