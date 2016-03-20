@@ -25,15 +25,15 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
+    "cz-conventional-changelog": "1.1.5",
     "istanbul": "0.4.2",
-    "kronos-test-step": "^3.0.1",
-    "kronos-service-manager": "^3.2.9",
-    "mocha": "2.4.5",
-    "semantic-release": "6.2.0",
-    "stream-equal": "^0.1.8",
-    "tmp": "0.0.28",
     "jsdoc": "3.4.0",
-    "cz-conventional-changelog": "1.1.5"
+    "kronos-service-manager": "^3.2.9",
+    "kronos-test-step": "^3.0.1",
+    "mocha": "2.4.5",
+    "semantic-release": "6.2.1",
+    "stream-equal": "^0.1.8",
+    "tmp": "0.0.28"
   },
   "contributors": [
     {
