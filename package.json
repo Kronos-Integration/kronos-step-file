@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Kronos-Integration/kronos-step-file#readme",
   "dependencies": {
+    "kronos-endpoint": "^2.4.0",
     "kronos-step": "5.1.4"
   },
   "devDependencies": {
