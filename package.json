@@ -22,7 +22,7 @@
   "homepage": "https://github.com/Kronos-Integration/kronos-step-file#readme",
   "dependencies": {
     "kronos-endpoint": "^2.8.0",
-    "kronos-step": "5.2.1"
+    "kronos-step": "5.2.2"
   },
   "devDependencies": {
     "chai": "3.5.0",
