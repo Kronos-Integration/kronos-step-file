@@ -6,10 +6,8 @@ const fs = require('fs');
 
 exports.registerWithManager = manager =>
 	manager.registerStep(Object.assign({}, require('kronos-step').Step, {
-		name: "kronos-file",
-		endpoints: {
-			"in": {
-				"in": true
+		name: 'kronos-file',
+		endpoints: { in : { in : true
 			}
 		},
 		initialize(manager, name, conf, properties) {
@@ -18,9 +16,15 @@ exports.registerWithManager = manager =>
 			properties._start = {
 				value: function () {
 					this.endpoints.in.receive = request => {
-						request.payload.pipe(fs.createWriteStream(fileName));
-						return Promise.resolve();
+						return new Promise((fullfill, reject) => {
+							const writer = fs.createWriteStream(fileName);
+							request.payload.pipe(writer);
+
+							request.payload.on('end', () => fullfill());
+							writer.on('error', error => reject(error));
+						});
 					};
+					return Promise.resolve();
 				}
 			};
 
