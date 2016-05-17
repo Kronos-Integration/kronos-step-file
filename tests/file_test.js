@@ -1,7 +1,7 @@
 /* global describe, it, xit, before, after */
 /* jslint node: true, esnext: true */
 
-"use strict";
+'use strict';
 
 const fs = require('fs'),
 	path = require('path'),
@@ -31,7 +31,7 @@ before(done => {
 
 const makeEqualizer = done =>
 	function equalizer(err, equal) {
-		assert(equal, "stream is equal to file content");
+		assert(equal, 'stream is equal to file content');
 		done();
 	};
 
@@ -41,8 +41,8 @@ describe('file', () => {
 			const file = manager.steps['kronos-file'];
 
 			const fileStep = file.createInstance({
-				name: "myStep",
-				type: "kronos-file",
+				name: 'myStep',
+				type: 'kronos-file',
 				fileName: outFileName
 			}, manager);
 
