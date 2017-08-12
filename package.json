@@ -34,7 +34,7 @@
     "mocha": "3.5.0",
     "semantic-release": "6.3.6",
     "stream-equal": "^1.0.0",
-    "tmp": "0.0.31"
+    "tmp": "0.0.33"
   },
   "contributors": [
     {
