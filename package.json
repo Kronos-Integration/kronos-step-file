@@ -32,7 +32,7 @@
     "kronos-service-manager": "^3.4.20",
     "kronos-test-step": "3.1.4",
     "mocha": "3.5.0",
-    "semantic-release": "6.3.6",
+    "semantic-release": "7.0.1",
     "stream-equal": "^1.0.0",
     "tmp": "0.0.33"
   },
