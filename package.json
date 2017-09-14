@@ -2,14 +2,12 @@
   "name": "kronos-step-file",
   "version": "0.0.0-semantic-release",
   "description": "std file input output step",
-  "keywords": [
-    "kronos-step"
-  ],
+  "keywords": ["kronos-step"],
   "main": "file.js",
   "scripts": {
-    "cover": "./node_modules/istanbul/lib/cli.js cover --hook-run-in-context ./node_modules/mocha/bin/_mocha -- --R spec --U exports tests/*_test.js",
+    "cover": "./node_modules/istanbul/lib/cli.js cover --hook-run-in-context ./node_modules/mocha/bin/_mocha -- --R spec --U exports tests/*-test.js",
     "doc": "./node_modules/.bin/jsdoc lib/*.js",
-    "test": "./node_modules/.bin/mocha tests/*_test.js",
+    "test": "./node_modules/.bin/mocha tests/*-test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
