@@ -1,25 +1,28 @@
 {
   "name": "kronos-step-file",
   "version": "0.0.0-semantic-release",
+  "main": "file.js",
   "description": "std file input output step",
   "keywords": [
     "kronos-step"
   ],
-  "main": "file.js",
+  "contributors": [
+    {
+      "name": "Torsten Link",
+      "email": "torstenlink@gmx.de"
+    },
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
+  "license": "BSD-2-Clause",
   "scripts": {
     "cover": "./node_modules/istanbul/lib/cli.js cover --hook-run-in-context ./node_modules/mocha/bin/_mocha -- --R spec --U exports tests/*-test.js",
     "doc": "./node_modules/.bin/jsdoc lib/*.js",
     "test": "./node_modules/.bin/mocha tests/*-test.js",
     "semantic-release": "semantic-release"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kronos-Integration/kronos-step-file.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Kronos-Integration/kronos-step-file/issues"
-  },
-  "homepage": "https://github.com/Kronos-Integration/kronos-step-file#readme",
   "dependencies": {
     "kronos-endpoint": "^2.13.4",
     "kronos-step": "^5.3.7"
@@ -36,20 +39,17 @@
     "stream-equal": "^1.0.0",
     "tmp": "0.0.33"
   },
-  "contributors": [
-    {
-      "name": "Torsten Link",
-      "email": "torstenlink@gmx.de"
-    },
-    {
-      "name": "Markus Felten",
-      "email": "markus.felten@gmx.de"
-    }
-  ],
-  "license": "BSD-2-Clause",
   "engines": {
     "node": ">=8.9.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kronos-Integration/kronos-step-file.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kronos-Integration/kronos-step-file/issues"
+  },
+  "homepage": "https://github.com/Kronos-Integration/kronos-step-file#readme",
   "xo": {
     "space": true
   },
