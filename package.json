@@ -34,7 +34,7 @@
     "jsdoc": "3.5.5",
     "kronos-service-manager": "^3.4.20",
     "kronos-test-step": "3.1.4",
-    "mocha": "^3.5.3",
+    "mocha": "^4.1.0",
     "semantic-release": "^11.1.0",
     "stream-equal": "^1.0.0",
     "tmp": "0.0.33"
