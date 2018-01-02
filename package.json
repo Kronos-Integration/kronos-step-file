@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "kronos-endpoint": "^2.13.4",
-    "kronos-step": "^5.3.7"
+    "kronos-step": "^5.6.6"
   },
   "devDependencies": {
     "chai": "^4.1.2",
