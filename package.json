@@ -35,7 +35,7 @@
     "kronos-service-manager": "^3.4.20",
     "kronos-test-step": "3.1.4",
     "mocha": "^6.2.0",
-    "semantic-release": "^15.13.23",
+    "semantic-release": "^15.13.24",
     "stream-equal": "^1.1.1",
     "tmp": "0.1.0"
   },
